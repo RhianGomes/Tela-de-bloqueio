@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./imagem/papel-de-parede.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container span{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+#senha input{
+    width: 200px;
+    margin-top: 15px;
+
+}
+
+#senha input:hover{
+    border-bottom: 2px solid blue;
+}
+
+#recupera a{
+    text-decoration: none;
+}
+
+#senha span{
+    font-size: 15px;
+}
